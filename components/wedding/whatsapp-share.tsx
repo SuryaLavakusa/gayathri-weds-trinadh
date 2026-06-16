@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 
 export function WhatsAppShare() {
   const shareMessage = encodeURIComponent(
-    "You're invited to the wedding of Swamy & Satya! 💒✨\n\nDate: May 7, 2026\nTime: 7:23 PM\nVenue: Surya Convention, Mandapeta\n\nWe would be honored to have you celebrate this special day with us!"
+    "You're invited to the wedding of Gayathri & Trinadh! 💒✨\n\nDate: May 7, 2026\nTime: 7:23 PM\nVenue: Surya Convention, Mandapeta\n\nWe would be honored to have you celebrate this special day with us!"
   )
 
   const whatsappUrl = `https://wa.me/?text=${shareMessage}`

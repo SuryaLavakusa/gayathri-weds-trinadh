@@ -16,11 +16,11 @@ const greatVibes = Great_Vibes({
 })
 
 export const metadata: Metadata = {
-  title: 'Swamy & Satya | Wedding Invitation',
-  description: 'You are cordially invited to celebrate the wedding of Swamy and Satya. Join us for a beautiful celebration of love, tradition, and family.',
-  keywords: ['wedding', 'invitation', 'Indian wedding', 'Swamy', 'Satya'],
+  title: 'Gayathri & Trinadh | Wedding Invitation',
+  description: 'You are cordially invited to celebrate the wedding of Gayathri and Trinadh. Join us for a beautiful celebration of love, tradition, and family.',
+  keywords: ['wedding', 'invitation', 'Indian wedding', 'Gayathri', 'Trinadh'],
   openGraph: {
-    title: 'Swamy & Satya Wedding Invitation',
+    title: 'Gayathri & Trinadh Wedding Invitation',
     description: 'Join us for a beautiful celebration of love, tradition, and family.',
     type: 'website',
   },

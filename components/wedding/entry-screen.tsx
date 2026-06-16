@@ -58,7 +58,7 @@ export function EntryScreen({ onEnter }: { onEnter: () => void }) {
               transition={{ delay: 0.6 }}
               className="text-xs sm:text-sm tracking-[0.3em] text-[#800020] uppercase mb-2 sm:mb-4"
             >
-              Chandina's
+              Kosireddy's
             </motion.p>
 
             <motion.p
@@ -77,7 +77,7 @@ export function EntryScreen({ onEnter }: { onEnter: () => void }) {
               className="text-4xl sm:text-5xl md:text-7xl text-[#800020] mb-1 sm:mb-2"
               style={{ fontFamily: 'var(--font-great-vibes), cursive' }}
             >
-              Swamy
+              Gayathri
             </motion.h1>
 
             <motion.p
@@ -96,7 +96,7 @@ export function EntryScreen({ onEnter }: { onEnter: () => void }) {
               className="text-4xl sm:text-5xl md:text-7xl text-[#800020] mb-5 sm:mb-8"
               style={{ fontFamily: 'var(--font-great-vibes), cursive' }}
             >
-              Satya
+              Trinadh
             </motion.h1>
 
             <motion.p
@@ -105,7 +105,7 @@ export function EntryScreen({ onEnter }: { onEnter: () => void }) {
               transition={{ delay: 1.4 }}
               className="text-sm sm:text-base text-muted-foreground mb-5 sm:mb-8"
             >
-              Friday, June 26, 2026 • 8:49 PM
+              Thursday, July 02, 2026 • 01:53 AM
             </motion.p>
 
             <motion.button

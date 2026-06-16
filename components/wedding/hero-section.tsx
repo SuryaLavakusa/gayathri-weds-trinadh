@@ -79,7 +79,7 @@ export function HeroSection() {
               transition={{ delay: 0.4 }}
               className="text-sm tracking-[0.3em] text-[#800020] uppercase mb-4"
             >
-              Chandina's
+              Kosireddy's
             </motion.p>
             <motion.p
               initial={{ opacity: 0 }}
@@ -97,7 +97,7 @@ export function HeroSection() {
               className="text-6xl md:text-8xl text-[#800020] mb-2"
               style={{ fontFamily: 'var(--font-great-vibes), cursive' }}
             >
-              Swamy
+              Gayathri
             </motion.h1>
 
             <motion.p
@@ -116,7 +116,7 @@ export function HeroSection() {
               className="text-6xl md:text-8xl text-[#800020]"
               style={{ fontFamily: 'var(--font-great-vibes), cursive' }}
             >
-              Satya
+              Trinadh
             </motion.h1>
 
             <motion.div
@@ -126,10 +126,10 @@ export function HeroSection() {
               className="mt-8 space-y-2 text-muted-foreground"
             >
               <p className="text-lg tracking-wide">
-                Friday, June 26, 2026 • 8:49 PM
+                Thursday, July 02, 2026 • 7:30PM
               </p>
               <p className="text-base">
-                Achutha Krishna function hall, Gandhinagar, Gollaprolu
+                Villa's Satya Krishna Convention hall, Gollaprolu
               </p>
             </motion.div>
 
@@ -167,7 +167,7 @@ export function HeroSection() {
             transition={{ duration: 0.8, delay: 0.3 }}
             className="relative flex justify-center"
           >
-            <div className="relative w-full max-w-md aspect-[3/4] rounded-3xl overflow-hidden shadow-2xl">
+            <div className="relative w-full max-w-md  rounded-3xl overflow-hidden shadow-2xl">
               {/* Decorative frame corners */}
               {/* <div className="absolute top-4 left-4 w-12 h-12 border-t-2 border-l-2 border-[#800020]" /> */}
               {/* <div className="absolute top-4 right-4 w-12 h-12 border-t-2 border-r-2 border-[#800020]" /> */}
@@ -180,8 +180,10 @@ export function HeroSection() {
                   className="hero-photo"
                   autoPlay
                   loop
+                  muted
                   playsInline
                   preload="metadata"
+                  style={{ width: '100%' }}
                   aria-label="Ramana and Annapurna wedding video"
                 >
                   <source src="video.mp4" type="video/mp4" />

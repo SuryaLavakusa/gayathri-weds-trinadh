@@ -18,10 +18,10 @@ const events: Event[] = [
   {
     id: 'wedding',
     title: 'Main Wedding',
-    date: 'Friday, June 26, 2026',
-    time: '8:49 PM',
-    description: 'Join us as Swamy and Satya begin their married life.',
-    location: 'Achutha Krishna function hall, Gandhinagar, Gollaprolu',
+    date: 'Thursday, July 02, 2026',
+    time: '01:53 AM',
+    description: 'Join us as Gayathri and Trinadh begin their married life.',
+    location: "Villa's Satya Krishna Convention hall, Gollaprolu",
     dressCode: 'Traditional elegance in cream, gold, or crimson',
     icon: (
       <Image
@@ -33,37 +33,20 @@ const events: Event[] = [
       />
     ),
   },
-  {
-    id: 'bride-haldi',
-    title: 'Haldi Ceremony',
-    date: 'June 27, 2026',
-    time: '5:00 PM - 9:00 PM',
-    description: 'A joyful morning ceremony filled with turmeric blessings.',
-    location: 'At home',
-    dressCode: 'Yellow or ivory traditional wear',
-    icon: (
-      <Image
-        src="/haldi.png"
-        alt="wedding-event"
-        className="w-12"
-        width={10}
-        height={10}
-      />
-    ),
-  },
+
   {
     id: 'groom-haldi',
-    title: 'Reception',
-    date: 'June 28, 2026',
-    time: '12:30 PM',
+    title: 'Dinner',
+    date: 'July 02, 2026',
+    time: '07:30 PM',
     description: 'A celebration of love, joy, and delight.',
-    location: 'Kotthem vari funtion hall, Gollaprolu',
+    location: "Villa's Satya Krishna Convention hall, Gollaprolu",
     dressCode: 'Indian tradition',
     icon: (
       <Image
-        src="/reception.png"
+        src="/reception.svg"
         alt="wedding-event"
-        className="w-12"
+        className="w-15"
         width={10}
         height={10}
       />
@@ -90,7 +73,7 @@ export function EventsTimeline() {
           </h2>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
           {events.map((event, index) => (
             <motion.div
               key={event.id}

@@ -27,7 +27,7 @@ export function Footer() {
               className="text-3xl text-white"
               style={{ fontFamily: "var(--font-great-vibes), cursive" }}
             >
-              Swamy & Satya
+              Gayathri & Trinadh
             </p>
           </div>
 
@@ -48,7 +48,7 @@ export function Footer() {
             className="text-4xl md:text-5xl text-white"
             style={{ fontFamily: "var(--font-great-vibes), cursive" }}
           >
-            Swamy Weds Satya
+            Gayathri Weds Trinadh
           </h3>
 
           {/* Copyright */}

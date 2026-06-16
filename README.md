@@ -1,2 +1,2 @@
-# swamy-satya-wedding-invitation
+# Gayathri-Trinadh-wedding-invitation
 # gayathri-weds-trinadh

@@ -14,7 +14,7 @@ const storyMilestones: StoryMilestone[] = [
     id: "beginning",
     number: "01",
     title: "A Meaningful Beginning",
-    description: "Swamy and Satya's journey began with a simple introduction that blossomed into heartfelt conversations, shared laughter, and a deep, beautiful connection."
+    description: "Gayathri and Trinadh's journey began with a simple introduction that blossomed into heartfelt conversations, shared laughter, and a deep, beautiful connection."
   },
   {
     id: "families",

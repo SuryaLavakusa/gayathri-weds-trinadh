@@ -19,7 +19,7 @@ export function CountdownTimer() {
   });
 
   useEffect(() => {
-    const weddingDate = new Date('2026-06-26T20:49:00').getTime();
+    const weddingDate = new Date('2026-07-02T19:30:00').getTime();
 
     const calculateTimeLeft = () => {
       const now = new Date().getTime();

@@ -3,9 +3,9 @@
 import { motion } from "framer-motion"
 
 export function VenueSection() {
-  const venueAddress = "Achutha Krishna function hall, Gandhinagar, Gollaprolu, East Godavari, Andhra Pradesh"
+  const venueAddress = "Villa's Satya Krishna Convention hall, Gollaprolu, East Godavari, Andhra Pradesh"
   const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(venueAddress)}`
-  const googleMapsEmbedUrl = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.8!2d82.2823482!3d17.1549092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a39d4b829408ff7:0xc7b3c40bbe8666a7!2sACHUTHA+KRISHNA+FUNCTION+HALL!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin`
+  const googleMapsEmbedUrl = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.8!2d82.2823633!3d17.1494454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a39d4b67b48b973:0x426eb077a8511e80!2sVilla's+Satya+Krishna+Convention+Hall!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin`
 
   return (
     <section id="venue" className="py-20 bg-card">
@@ -66,9 +66,9 @@ export function VenueSection() {
               <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
                 <div>
                   <p className="text-sm tracking-[0.2em] text-[#c9a227] uppercase mb-2">Venue</p>
-                  <h3 className="text-xl text-[#800020] font-semibold mb-2">Achutha Krishna function hall</h3>
+                  <h3 className="text-xl text-[#800020] font-semibold mb-2">Villa's Satya Krishna Convention hall</h3>
                   <p className="text-muted-foreground">
-                    Gandhinagar, Gollaprolu,<br />
+                    Gollaprolu,<br />
                     East Godavari, Andhra Pradesh
                   </p>
                 </div>
